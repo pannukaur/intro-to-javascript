@@ -21,3 +21,17 @@
 // const topThreeMovies = ['kids', 'romantic','immotional'];
 // console.log(topThreeMovies);
 // console.log(`my second top movies is: ${topThreeMovies[1]}`);
+const firstName =prompt('what is your first name');
+let lastName = prompt('what is your last name')
+console.log('my first name is ${firstName} ');
+alert (`hello ${lastName}`);
+let birthday = prompt('when is your birthday');
+
+confirm (`is this your birthday ${birthday}`);
+alert (birthday);
+let fixDate = new Date(birthday);
+
+alert(fixDate);
+
+
+
