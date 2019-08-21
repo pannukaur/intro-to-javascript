@@ -88,24 +88,42 @@
 // ---
 
 // swich statement
-// let askColor = prompt('pick up color : red, orange,blue. Await the following response....');
-// switch(askColor){
-//     case 'red':
-//         H1.innerHTML = `you chose ${askColor}.. which reminds me of `;
-//         break;
-//         case 'orange':
-//             H1:innerHTML =`you chose ${askColor}..default`;
-//           case  'blue' =`you chose ${askColor}..remind `;
-//           break;
-//           default:
-//               H1:innerHTML =`not follow the roule`;
-// }
-// ---
-let  age = 18;
-if (age < 18){
-    alert('they are not old enough');
-}else {
-    console.log('they are old enough')
+let askColor = prompt('pick up color : red, orange,blue. Await the following response....');
+switch(askColor){
+    case 'red':
+        H1.innerHTML = `you chose ${askColor}.. which reminds me of `;
+        break;
+        case 'orange':
+            H1:innerHTML =`you chose ${askColor}..default`;
+          case  'blue':
+              H1:innerHTML =`you chose ${askColor}..remind `;
+          break;
+          default:
+              H1:innerHTML =`not follow the roule`;
 }
+// ---
+// let  age = 18;
+// if (age < 18){
+//     alert('they are not old enough');
+// }else {
+//     console.log('they are old enough')
+// }
+
+// const firstName = prompt('what is your name ?');
+// console.log(`my first name is ${firstName}`);
+// let askColor = prompt('pick up color : red, orange,yellow, green, blue, pink,purple, white, black, greay');
+// switch (askColor) {
+//     case 'red'
+//         H1:innerHTML("red");
+//         break;
+
+// }
 
 
+
+
+// const firstName =prompt('what is your first name');
+// let lastName = prompt('what is your last name')
+// console.log('my first name is ${firstName} ');
+// alert (`hello ${lastName}`);
+// let birthday = prompt('when is your birthday');
