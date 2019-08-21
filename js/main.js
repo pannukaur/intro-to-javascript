@@ -101,11 +101,50 @@
 //               H1:innerHTML =`not follow the roule`;
 // }
 // ---
-let  age = 18;
-if (age < 18){
-    alert('they are not old enough');
-}else {
-    console.log('they are old enough')
+// let  age = 18;
+// if (age < 18){
+//     alert('they are not old enough');
+// }else {
+//     console.log('they are old enough')
+// }
+
+
+const name = prompt('rahul');
+let color = prompt('pick up color');
+switch (color) {
+    case "red": 
+    H1.innerHTML = `you choose ${color}`;
+    break;
+    case "orange": 
+    H1.innerHTML = `you choose ${color}`;
+    break;
+    case "yellow": 
+    H1.innerHTML = `you choose ${color}`;
+    break;
+    case "green": 
+    H1.innerHTML = `you choose ${color}`;
+    break;
+    case "blue": 
+    H1.innerHTML = `you choose ${color}`;
+    break;
+    case "pink": 
+    H1.innerHTML = `you choose ${color}`;
+    break;
+    case "purple": 
+    H1.innerHTML = `you choose ${color}`;
+    break;
+    case "white": 
+    H1.innerHTML = `you choose ${color}`;
+    break;
+    case "black": 
+    H1.innerHTML = `you choose ${color}`;
+    break;
+    case "grey": 
+    console,log (`you choose ${color}`);
+    break;
+    default : 
+    alert (`wrong color ${color}`);
 }
+
 
 
