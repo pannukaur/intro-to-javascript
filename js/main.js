@@ -108,9 +108,10 @@
 //     console.log('they are old enough')
 // }
 
-
-const name = prompt('rahul');
-let color = prompt('pick up color');
+const H1 = document.getElementById('greeting');
+const name = prompt('what is yur name ?');
+alert(`My name is ${name}`);
+let color = prompt('Pick up color');
 switch (color) {
     case "red": 
     H1.innerHTML = `you choose ${color}`;
@@ -140,7 +141,7 @@ switch (color) {
     H1.innerHTML = `you choose ${color}`;
     break;
     case "grey": 
-    console,log (`you choose ${color}`);
+    H1.innerHTML = (`you choose ${color}`);
     break;
     default : 
     alert (`wrong color ${color}`);
