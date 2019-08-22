@@ -37,13 +37,70 @@
     // console.log(newArrayofInfo);
     // let refereshed = newArrayofInfo.reverse();
     // console.log(refereshed);
-     let myFavorietMovie = ['hawa', 'jadoo', 'lucky','rosi', 'chori-chori','bhoot'];
-     alert('my favorite move is' );
-     let myLessFavoriteMovies = ['bhoot','rosi','hawa'];
-     console.log(myLessFavoriteMovies);
-     let finalArray = ['jadoo',]
-     alert(myLessFavoriteMovies.lenght);
 
+
+
+    //  let myFavorietMovie = ['hawa', 'jadoo', 'lucky','rosi', 'chori-chori','bhoot'];
+    //  alert('my favorite move is' );
+    //  let myLessFavoriteMovies = ['bhoot','rosi','hawa'];
+    //  console.log(myLessFavoriteMovies);
+    //  let finalArray = ['jadoo',]
+    //  alert(myLessFavoriteMovies.lenght);
+
+
+    // while loop
+    // let x=0;
+    // while (x <= 10){
+    //     console.log(x);
+    //     x++;
+    // }
+
+
+    // for loop
+    // for (let i = 0; i<20;
+    //     i++){
+    //         console.log(i);
+    //     }
+
+    // let i = 0;
+    // do {
+    //     console.log(i);
+    //     i++;
+    // } while(i<10);
+
+
+
+    // let arr3 = [1, 2, 3, 4];
+    // arr3.forEach(function(x){
+    //     console.log ('i am ' + x);
+    // });
+  
+
+    // let myString = "hi, my name is kk";
+    // for (value of myString){
+    //     console.log(value);
+    // }
+
+    let people = {firstName : 'kk', lastName: 'hvhv', age : 26,
+ 
+    },
+    {
+        fi
+    }
+    let users = [
+        {
+            userName: 'ghvhjv;',
+            createdAt: new Date()
+        },
+        {
+            userName: 'ghvhjv;',
+            createdAt: new Date()
+        }
+
+    ]
+    for (user  of users) {
+        console.log(user: ${user.username}, and they were on)
+    }
 
 
 
