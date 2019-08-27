@@ -81,26 +81,33 @@
     //     console.log(value);
     // }
 
-    let people = {firstName : 'kk', lastName: 'hvhv', age : 26,
+    // let people = {firstName : 'kk', lastName: 'hvhv', age : 26,
  
-    },
-    {
-        fi
-    }
-    let users = [
-        {
-            userName: 'ghvhjv;',
-            createdAt: new Date()
-        },
-        {
-            userName: 'ghvhjv;',
-            createdAt: new Date()
-        }
+    // },
+    // {
+    //     fi
+    // }
+    // let users = [
+    //     {
+    //         userName: 'ghvhjv;',
+    //         createdAt: new Date()
+    //     },
+    //     {
+    //         userName: 'ghvhjv;',
+    //         createdAt: new Date()
+    //     }
 
-    ]
-    for (user  of users) {
-        console.log(user: ${user.username}, and they were on)
-    }
+    // ]
+    // for (user  of users) {
+    //     console.log(user: ${user.username}, and they were on)
+    // }
+
+var myFavoriteItems = ['apple', 'mango', 'orange', 'pear', 'banana', 'grapes'];
+var i = len;
+for (var i = 0; i <=3; i++);{
+var +=
+console.log(myFavoriteItems.length);
+}
 
 
 
